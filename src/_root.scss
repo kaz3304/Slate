@@ -1,11 +1,11 @@
 :root {
 	--slate-file-version: "1.1";
 	--slate-base-version: "1.6.5";
-	--slate-palette: "Primer";
+	--slate-palette: "kaz";
 
 	// Roundness
-	--border-radius: 3px;
-	--button-border-radius: 2px;
+	--border-radius: 6px;
+	--button-border-radius: 3px;
 	--avatar-radius: calc(var(--border-radius) / 2);
 	--server-radius: var(--border-radius);
 
@@ -23,23 +23,23 @@
 	--spacing-third: calc(var(--spacing) / 3);
 	--spacing-half: calc(var(--spacing) / 2);
 	--spacing: 10px;
-	--spacing-double: calc(var(--spacing) * 2);
-	--spacing-triple: calc(var(--spacing) * 3);
+	--spacing-double: calc(var(--spacing) * 1.5);
+	--spacing-triple: calc(var(--spacing) * 2);
 
 	// Fonts
-	--font-family-sans-serif: -apple-system, BlinkMacSystemFont, "Segoe UI", "Roboto", "Oxygen", "Ubuntu", "Cantarell", "Fira Sans", "Droid Sans", "Helvetica Neue", Arial, sans-serif;
-	--font-family-monospace: Menlo, Monaco, Consolas, "Liberation Mono", "Courier New", monospace;
+	--font-family-sans-serif: "Ubuntu", "Droid Sans", "Helvetica Neue", sans-serif;
+	--font-family-monospace: "Ubuntu Monospace", Consolas, "Liberation Mono", "Courier New", monospace;
 
 	// Text Scaling
-	--font-size-xsm: 9px;
-	--font-size-sm: 11px;
-	--font-size: 12px;
-	--font-size-md: 14px;
-	--font-size-lg: 28px;
-	--font-size-xl: 32px;
-	--font-size-xxl: 42px;
-	--line-height-sm: 1;
-	--line-height: 1.5;
+	--font-size-xsm: 12px;
+	--font-size-sm: 14px;
+	--font-size: 16px;
+	--font-size-md: 18px;
+	--font-size-lg: 20px;
+	--font-size-xl: 28px;
+	--font-size-xxl: 36px;
+	--line-height-sm: 1.5;
+	--line-height: 3;
 
 	// Chat
 	--chat-font-size-xsm: var(--font-size-xsm);
@@ -72,22 +72,22 @@
 	--toolbar-border: #141414;
 
 	// Inputs
-	--input-height: 25px;
+	--input-height: 40px;
 
 	// List Items
 	--item-height: 34px;
 
 	// Sidebars
-	--sidebar-width: 260px;
-	--member-height: 42px;
-	--channel-height: 32px;
+	--sidebar-width: 200px;
+	--member-height: 64px;
+	--channel-height: 48px;
 
 	// Avatars
-	--avatar-size-xsm: 18px;
-	--avatar-size-sm: 24px;
-	--avatar-size: 28px;
-	--avatar-size-lg: 45px;
-	--avatar-size-xl: 64px;
+	--avatar-size-xsm: 24px;
+	--avatar-size-sm: 30px;
+	--avatar-size: 36px;
+	--avatar-size-lg: 42px;
+	--avatar-size-xl: 48px;
 
 	// Modals
 	--backdrop: rgb(0 0 0 / 0.4);
